@@ -11,6 +11,7 @@
         "LeoCecilia",
         "video-tools"
     ],
+    "license": "MIT",
     "require": {
         "php": ">=7.0",
         "ext-json": "*",
