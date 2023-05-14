@@ -1,17 +1,15 @@
 {
-    "name": "smalls/video-tools",
-    "description": "短视频的拓展包，集成各大短视频的去水印功能",
-    "type": "library",
-    "keywords": [
-        "smalls",
-        "video-tools"
-    ],
-    "license": "MIT",
+    "name": "heiwanchan/video-parse-tools",
     "authors": [
         {
-            "name": "Smalls",
-            "email": "smalls0098@gmail.com"
+            "name": "heiwan.chan",
+            "email": "littlececiliachan@outlook.com"
         }
+    ],
+    "type": "library",
+    "keywords": [
+        "heiwanchan",
+        "video-tools"
     ],
     "require": {
         "php": ">=7.0",
@@ -27,7 +25,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Smalls\\VideoTools\\": "src"
+            "HeiwanChan\\VideoTools\\": "src"
         },
         "files": [
             "config/url-validator.php"
@@ -35,7 +33,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Smalls\\Tests\\": "tests"
+            "HeiwanChan\\Tests\\": "tests"
         }
     }
 }
